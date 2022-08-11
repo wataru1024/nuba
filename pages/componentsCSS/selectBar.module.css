@@ -1,0 +1,8 @@
+.foodInfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bar {
+    margin: 10px;      
+}

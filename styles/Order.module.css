@@ -1,0 +1,78 @@
+.foodCards {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.abc{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    overflow-x: scroll;
+}
+
+.foodCard {
+    padding: 20px;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.desideOrder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    height: 10vh;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.customerNumber {
+    width: 5vw;
+    height: 5vw;
+    margin: 5px;
+}
+
+#cusNumActive {
+    border: black 3px solid;
+    font: bold;
+    background-color: aliceblue;
+}
+
+.tensPlace {
+    display: flex;
+}
+
+.firstPlace {
+    display: flex;
+}
+
+.orderedCardBox {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+}
+
+.orderedCard {
+    margin: 10px;
+    width: 22vw;
+    height: 22vw;
+    border: 1px orange solid;
+    padding: 10px;
+    position: relative;
+}
+
+.doneBtn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    width: 22vw;
+    border: 2px solid orangered;
+}
+
+.doneBtn:active {
+    background-color: rgba(255, 127, 80, 0.377);
+}
