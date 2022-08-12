@@ -6,7 +6,7 @@ import Link from 'next/link';
 import SendSheet from '../components/sendSheet';
 
 
-export default function resultPage() {
+export default function ResultPage() {
 
 
   const [result, setResult] = useState({doneList:[], menuList:[]})
