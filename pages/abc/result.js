@@ -1,5 +1,5 @@
 import styles from '../../styles/Result.module.css' 
-import { doc, collection, setDoc, getDocs, serverTimestamp} from "firebase/firestore";
+import {collection, getDocs} from "firebase/firestore";
 import db from '../../config/firebase'
 import React, {useEffect, useState } from 'react';
 import Link from 'next/link';
